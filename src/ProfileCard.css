@@ -1,0 +1,76 @@
+/* ProfileCard.css */
+.profile-card {
+    background: linear-gradient(to top, #ff5f7e, #feb47b);
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  .profile-header {
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  .profile-location {
+    font-size: 14px;
+  }
+  
+  .profile-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat-number {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .stat-label {
+    font-size: 12px;
+  }
+  
+  .profile-btn {
+    background-color: #fff;
+    color: #ff5f7e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .profile-btn:hover {
+    background-color: #ff5f7e;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
